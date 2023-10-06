@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "NKQuotezz",
+    "slug": "quotes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nk.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/nk.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nk.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nitin_kumar_s.quotesapp"
+    },
+    "web": {
+      "favicon": "./assets/nk.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9aa9d560-37fc-4950-86a9-b7fb5b9e8f14"
+      }
+    }
+  }
+}
